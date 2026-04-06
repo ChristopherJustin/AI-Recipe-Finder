@@ -1,6 +1,6 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import field_validator
-from typing import List, Union
+from typing import List
+
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
@@ -27,14 +27,10 @@ class Settings(BaseSettings):
     email_password: str | None = None
 
     frontend_url: str = "http://localhost:5173"
-    cors_origins: Union[List[str], str] = []
-
-    @field_validator("cors_origins", mode="before")
-    @classmethod
-    def parse_cors_origins(cls, value):
-        if isinstance(value, str):
-            return [origin.strip() for origin in value.split(",") if origin.strip()]
-        return value
+    cors_origins: List[str] = [
+        "http://localhost:3000",
+        "http://localhost:5173",
+    ]
 
 
 settings = Settings()
