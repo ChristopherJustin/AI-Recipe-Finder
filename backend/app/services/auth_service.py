@@ -14,12 +14,22 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 
 
+def _validate_bcrypt_password(password: str):
+    if len(password.encode("utf-8")) > 72:
+        raise HTTPException(
+            status_code=400,
+            detail="Password is too long. Please use 72 characters or fewer.",
+        )
+
+
 def hash_password(password: str):
-    return pwd_context.hash(password[:72])
+    _validate_bcrypt_password(password)
+    return pwd_context.hash(password)
 
 
 def verify_password(password: str, hashed: str):
-    return pwd_context.verify(password[:72], hashed)
+    _validate_bcrypt_password(password)
+    return pwd_context.verify(password, hashed)
 
 
 def _create_token(data: dict, expires_delta: timedelta, token_type: str):
@@ -81,8 +91,8 @@ def get_current_user(
     if not payload:
         raise credentials_exception
 
-    email: str | None = payload.get("sub")
-    token_type: str | None = payload.get("type")
+    email = payload.get("sub")
+    token_type = payload.get("type")
 
     if not email or token_type != "access":
         raise credentials_exception
