@@ -1,0 +1,489 @@
+[
+    {
+        "id": 1,
+        "name": "Omelette",
+        "ingredients": [
+            "eggs",
+            "milk",
+            "cheese"
+        ],
+        "instructions": [
+            "Crack eggs into a bowl",
+            "Add milk and whisk until combined",
+            "Heat a pan over medium heat",
+            "Pour mixture into pan",
+            "Let it cook until edges set",
+            "Add cheese and fold in half",
+            "Cook until fully set and serve"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pancakes",
+        "ingredients": [
+            "flour",
+            "milk",
+            "eggs",
+            "sugar"
+        ],
+        "instructions": [
+            "Mix flour and sugar in a bowl",
+            "Add eggs and milk and whisk until smooth",
+            "Heat a pan over medium heat",
+            "Pour batter into pan",
+            "Cook until bubbles form, then flip",
+            "Cook until golden brown and serve"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Grilled Cheese",
+        "ingredients": [
+            "bread",
+            "cheese",
+            "butter"
+        ],
+        "instructions": [
+            "Butter both sides of bread",
+            "Place cheese between slices",
+            "Heat pan over medium heat",
+            "Cook sandwich until golden brown",
+            "Flip and cook other side",
+            "Serve warm"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "French Toast",
+        "ingredients": [
+            "bread",
+            "milk",
+            "eggs",
+            "cinnamon",
+            "sugar"
+        ],
+        "instructions": [
+            "Whisk eggs, milk, cinnamon, and sugar",
+            "Dip bread into mixture",
+            "Heat pan with butter",
+            "Cook bread until golden on both sides",
+            "Serve warm"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Scrambled Eggs",
+        "ingredients": [
+            "eggs",
+            "butter",
+            "salt",
+            "pepper"
+        ],
+        "instructions": [
+            "Crack eggs into bowl and whisk",
+            "Melt butter in pan",
+            "Pour eggs into pan",
+            "Stir continuously over low heat",
+            "Season and serve"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Cheeseburger",
+        "ingredients": [
+            "bun",
+            "beef",
+            "cheese",
+            "lettuce",
+            "tomato",
+            "mustard",
+            "ketchup"
+        ],
+        "instructions": [
+            "Form beef into patties",
+            "Cook patties on grill or pan",
+            "Add cheese and let melt",
+            "Toast buns",
+            "Assemble burger with toppings",
+            "Serve"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Steak",
+        "ingredients": [
+            "steak",
+            "garlic",
+            "butter",
+            "rosemary",
+            "thyme"
+        ],
+        "instructions": [
+            "Season steak with salt and pepper",
+            "Heat pan until very hot",
+            "Sear steak on both sides",
+            "Add butter, garlic, and herbs",
+            "Baste steak while cooking",
+            "Rest before serving"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Pizza",
+        "ingredients": [
+            "dough",
+            "flour",
+            "mozzarella cheese",
+            "basil",
+            "tomato sauce"
+        ],
+        "instructions": [
+            "Roll out dough",
+            "Spread tomato sauce",
+            "Add cheese and toppings",
+            "Bake in oven at 450°F",
+            "Cook until crust is golden",
+            "Garnish with basil"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Lemon Potatoes",
+        "ingredients": [
+            "potatoes",
+            "lemons",
+            "butter"
+        ],
+        "instructions": [
+            "Cut potatoes into wedges",
+            "Mix with lemon juice and butter",
+            "Season with salt",
+            "Roast in oven at 400°F",
+            "Cook until crispy"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Pumpkin Pie",
+        "ingredients": [
+            "pumpkin",
+            "milk",
+            "cinnamon",
+            "nutmeg",
+            "eggs",
+            "cream",
+            "dough"
+        ],
+        "instructions": [
+            "Mix pumpkin, milk, eggs, and spices",
+            "Pour into pie crust",
+            "Bake at 375°F",
+            "Let cool before serving"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Spaghetti",
+        "ingredients": [
+            "pasta",
+            "tomato sauce",
+            "garlic",
+            "olive oil"
+        ],
+        "instructions": [
+            "Boil pasta until al dente",
+            "Heat sauce with garlic",
+            "Combine pasta and sauce",
+            "Serve hot"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Chicken Salad",
+        "ingredients": [
+            "chicken",
+            "lettuce",
+            "tomato",
+            "olive oil"
+        ],
+        "instructions": [
+            "Cook and slice chicken",
+            "Chop vegetables",
+            "Mix everything together",
+            "Drizzle with olive oil"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Fried Rice",
+        "ingredients": [
+            "rice",
+            "eggs",
+            "soy sauce",
+            "vegetables"
+        ],
+        "instructions": [
+            "Cook rice and let cool",
+            "Scramble eggs in pan",
+            "Add vegetables and rice",
+            "Stir in soy sauce",
+            "Cook until heated through"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Tacos",
+        "ingredients": [
+            "tortilla",
+            "beef",
+            "lettuce",
+            "cheese"
+        ],
+        "instructions": [
+            "Cook beef with seasoning",
+            "Warm tortillas",
+            "Fill tortillas with beef and toppings",
+            "Serve"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Caesar Salad",
+        "ingredients": [
+            "lettuce",
+            "croutons",
+            "parmesan",
+            "caesar dressing"
+        ],
+        "instructions": [
+            "Chop lettuce",
+            "Add croutons and cheese",
+            "Toss with dressing",
+            "Serve"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Mashed Potatoes",
+        "ingredients": [
+            "potatoes",
+            "butter",
+            "milk"
+        ],
+        "instructions": [
+            "Boil potatoes until soft",
+            "Mash potatoes",
+            "Add butter and milk",
+            "Mix until smooth"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Chicken Stir Fry",
+        "ingredients": [
+            "chicken",
+            "vegetables",
+            "soy sauce",
+            "garlic"
+        ],
+        "instructions": [
+            "Cook chicken in pan",
+            "Add vegetables",
+            "Stir in soy sauce and garlic",
+            "Cook until done"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "BLT Sandwich",
+        "ingredients": [
+            "bread",
+            "bacon",
+            "lettuce",
+            "tomato"
+        ],
+        "instructions": [
+            "Cook bacon",
+            "Toast bread",
+            "Assemble sandwich",
+            "Serve"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Mac and Cheese",
+        "ingredients": [
+            "pasta",
+            "cheese",
+            "milk",
+            "butter"
+        ],
+        "instructions": [
+            "Cook pasta",
+            "Melt butter and add milk",
+            "Stir in cheese",
+            "Combine with pasta"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Quesadilla",
+        "ingredients": [
+            "tortilla",
+            "cheese",
+            "chicken"
+        ],
+        "instructions": [
+            "Place cheese and chicken in tortilla",
+            "Fold tortilla",
+            "Cook in pan until crispy",
+            "Slice and serve"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Egg Salad",
+        "ingredients": [
+            "eggs",
+            "mayonnaise",
+            "mustard"
+        ],
+        "instructions": [
+            "Boil eggs",
+            "Chop eggs",
+            "Mix with mayo and mustard",
+            "Serve chilled"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Grilled Chicken",
+        "ingredients": [
+            "chicken",
+            "olive oil",
+            "salt",
+            "pepper"
+        ],
+        "instructions": [
+            "Season chicken",
+            "Grill until cooked through",
+            "Rest before serving"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Tomato Soup",
+        "ingredients": [
+            "tomatoes",
+            "garlic",
+            "olive oil"
+        ],
+        "instructions": [
+            "Cook tomatoes and garlic",
+            "Blend until smooth",
+            "Simmer and serve"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Banana Smoothie",
+        "ingredients": [
+            "banana",
+            "milk",
+            "honey"
+        ],
+        "instructions": [
+            "Add ingredients to blender",
+            "Blend until smooth",
+            "Serve cold"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Chocolate Chip Cookies",
+        "ingredients": [
+            "flour",
+            "sugar",
+            "butter",
+            "chocolate chips"
+        ],
+        "instructions": [
+            "Mix ingredients",
+            "Form cookie dough balls",
+            "Bake at 350°F",
+            "Cool and serve"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Roasted Vegetables",
+        "ingredients": [
+            "vegetables",
+            "olive oil",
+            "salt"
+        ],
+        "instructions": [
+            "Chop vegetables",
+            "Toss with oil and salt",
+            "Roast at 400°F",
+            "Serve"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Turkey Sandwich",
+        "ingredients": [
+            "bread",
+            "turkey",
+            "lettuce",
+            "tomato"
+        ],
+        "instructions": [
+            "Layer ingredients between bread",
+            "Slice and serve"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Rice Bowl",
+        "ingredients": [
+            "rice",
+            "chicken",
+            "vegetables"
+        ],
+        "instructions": [
+            "Cook rice",
+            "Prepare toppings",
+            "Assemble bowl",
+            "Serve"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Garlic Bread",
+        "ingredients": [
+            "bread",
+            "butter",
+            "garlic"
+        ],
+        "instructions": [
+            "Mix butter and garlic",
+            "Spread on bread",
+            "Bake until crispy"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Fruit Salad",
+        "ingredients": [
+            "apple",
+            "banana",
+            "orange"
+        ],
+        "instructions": [
+            "Chop fruits",
+            "Mix together",
+            "Serve chilled"
+        ]
+    }
+]
