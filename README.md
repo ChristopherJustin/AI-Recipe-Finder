@@ -1,11 +1,11 @@
-#AI Recipe Finder
+AI Recipe Finder
 A full-stack AI-powered recipe web app that lets users search recipes by ingredients, generate recipes with AI, detect ingredients from images, and manage saved recipes with secure authentication.
 
-#Live Demo
+Live Demo
 Frontend: https://ai-recipe-finder-tj8j.vercel.app
 Backend API: https://ai-recipe-finder-x8tx.onrender.com/api/v1/
 
-#Tech Stack
+Tech Stack
 Frontend
 * React
 * Vite
@@ -25,7 +25,7 @@ Deployment
 * Vercel (Frontend)
 * Render (Backend)
 
-#Features
+Features
 * Search recipes by ingredients
 * Browse a curated recipe library
 * Generate recipes using Google Gemini AI
@@ -37,7 +37,7 @@ Deployment
 * Contact form with backend email delivery
 * Retry + fallback logic for AI reliability
 
-#Key API Endpoints
+Key API Endpoints
 Auth
 * POST /api/v1/auth/register
 * POST /api/v1/auth/login
@@ -58,7 +58,7 @@ Other
 * POST /api/v1/contact
 * GET /api/v1/health
 
-#Local Setup
+Local Setup
 1. Clone the repo
 git clone https://github.com/ChristopherJustin/AI-Recipe-Finder.git
 cd AI-Recipe-Finder
@@ -80,7 +80,7 @@ cd frontend
 npm install
 npm run dev
 
-#Environment Variables
+Environment Variables
 Backend (backend/.env)
 ENVIRONMENT=development
 
@@ -103,6 +103,6 @@ CORS_ORIGINS=["http://localhost:3000","http://localhost:5173"]
 Frontend (frontend/.env)
 VITE_API_URL=http://localhost:8000/api/v1
 
-#Future Upgrades
+# Future Upgrades
 * Add a pantry page where it stores the user's ingredients in the database and allows them to add, remove, or edit ingredients.
 * Add a meal planner page to generate weekly meals for the user to make with the ingredients they habe stored inside their pantry.
