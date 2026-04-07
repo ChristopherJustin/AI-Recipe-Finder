@@ -60,25 +60,25 @@ Other
 
 # Local Setup
 1. Clone the repo
-  git clone https://github.com/ChristopherJustin/AI-Recipe-Finder.git
-  cd AI-Recipe-Finder
+   git clone https://github.com/ChristopherJustin/AI-Recipe-Finder.git
+   cd AI-Recipe-Finder
 
-2. Backend Setup
-  cd backend
+3. Backend Setup
+   cd backend
 
-  python -m venv venv
-  source venv/bin/activate  # (Mac/Linux)
-  venv\Scripts\activate   # (Windows)
+   python -m venv venv
+   source venv/bin/activate  # (Mac/Linux)
+   venv\Scripts\activate   # (Windows)
 
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
-  uvicorn app.main:app --reload
+   uvicorn app.main:app --reload
 
 3. Frontend Setup
-  cd frontend
+   cd frontend
 
-  npm install
-  npm run dev
+   npm install
+   npm run dev
 
 # Environment Variables
 Backend (backend/.env)
