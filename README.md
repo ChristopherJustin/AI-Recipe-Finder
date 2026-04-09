@@ -14,6 +14,7 @@ Frontend
 * Axios
 * Tailwind CSS
 * Lucide Icons
+
 Backend
 * FastAPI
 * SQLAlchemy
@@ -21,9 +22,11 @@ Backend
 * JWT Authentication
 * Google Gemini API
 * Python SMTP (email service)
+
 Deployment
 * Vercel (Frontend)
 * Render (Backend)
+
 
 # Features
 * Search recipes by ingredients
