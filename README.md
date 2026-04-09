@@ -13,7 +13,6 @@ Frontend
 * React Query
 * Axios
 * Tailwind CSS
-* Lucide Icons
 
 Backend
 * FastAPI
