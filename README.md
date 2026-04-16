@@ -1,6 +1,14 @@
 # AI Recipe Finder
 A full-stack AI-powered recipe web app that lets users search recipes by ingredients, generate recipes with AI, detect ingredients from images, and manage saved recipes with secure authentication.
 
+Integrated Google Gemini API to generate realistic recipes from user-provided ingredients, including retry logic, structured JSON parsing, and fallback handling for production reliability.
+
+Built an image upload pipeline that detects food ingredients using AI vision models, normalizes results, and allows users to edit detected ingredients before triggering recipe search or generation.
+
+Implemented full JWT-based authentication with access and refresh tokens, protected routes, and automatic token refresh using Axios interceptors to maintain seamless user sessions.
+
+Designed a user-specific saved recipes feature with secure backend endpoints, enabling users to save, retrieve, and delete recipes tied to their account.
+
 # Live Demo
 Frontend: https://ai-recipe-finder-tj8j.vercel.app
 Backend API: https://ai-recipe-finder-x8tx.onrender.com/api/v1/
