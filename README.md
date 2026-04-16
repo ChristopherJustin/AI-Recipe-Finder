@@ -70,7 +70,7 @@ Other
 
 # Local Setup
 1. Clone the repo  
-   git clone https://github.com/ChristopherJustin/AI-Recipe-Finder.git
+   git clone https://github.com/ChristopherJustin/AI-Recipe-Finder.git  
    cd AI-Recipe-Finder
 
 3. Backend Setup  
