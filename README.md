@@ -69,49 +69,43 @@ Other
 * GET /api/v1/health
 
 # Local Setup
-1. Clone the repo
+1. Clone the repo  
    git clone https://github.com/ChristopherJustin/AI-Recipe-Finder.git
    cd AI-Recipe-Finder
 
-3. Backend Setup
-   cd backend
+3. Backend Setup  
+   cd backend  
+   python -m venv venv  
+   source venv/bin/activate  # (Mac/Linux)  
+   venv\Scripts\activate   # (Windows)  
+   pip install -r requirements.txt  
+   uvicorn app.main:app --reload  
 
-   python -m venv venv
-   source venv/bin/activate  # (Mac/Linux)
-   venv\Scripts\activate   # (Windows)
-
-   pip install -r requirements.txt
-
-   uvicorn app.main:app --reload
-
-3. Frontend Setup
-   cd frontend
-
-   npm install
-   npm run dev
+3. Frontend Setup  
+   cd frontend  
+   npm install  
+   npm run dev  
 
 # Environment Variables
-Backend (backend/.env)
-ENVIRONMENT=development
+Backend (backend/.env)  
+ENVIRONMENT=development  
+DATABASE_URL=sqlite:///./app.db  
+SECRET_KEY=your-secret-key  
+ALGORITHM=HS256  
+ACCESS_TOKEN_EXPIRE_MINUTES=60  
+REFRESH_TOKEN_EXPIRE_DAYS=7  
 
-DATABASE_URL=sqlite:///./app.db
+GEMINI_API_KEY=your-gemini-api-key  
 
-SECRET_KEY=your-secret-key
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=60
-REFRESH_TOKEN_EXPIRE_DAYS=7
+EMAIL_FROM=your@email.com  
+EMAIL_TO=your@email.com  
+EMAIL_PASSWORD=your-app-password  
 
-GEMINI_API_KEY=your-gemini-api-key
+FRONTEND_URL=http://localhost:5173  
+CORS_ORIGINS=["http://localhost:3000","http://localhost:5173"]  
 
-EMAIL_FROM=your@email.com
-EMAIL_TO=your@email.com
-EMAIL_PASSWORD=your-app-password
-
-FRONTEND_URL=http://localhost:5173
-CORS_ORIGINS=["http://localhost:3000","http://localhost:5173"]
-
-Frontend (frontend/.env)
-VITE_API_URL=http://localhost:8000/api/v1
+Frontend (frontend/.env)  
+VITE_API_URL=http://localhost:8000/api/v1  
 
 # Future Upgrades
 * Add a pantry page where it stores the user's ingredients in the database and allows them to add, remove, or edit ingredients.
